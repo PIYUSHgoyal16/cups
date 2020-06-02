@@ -1189,7 +1189,7 @@ cupsdLogRequest(cupsd_client_t *con,	/* I - Request to log */
   */
 
   cupsFilePrintf(AccessFile,
-                 "%s - %s %s \"%s %s HTTP/%d.%d\" %d " CUPS_LLFMT " %s %s\n",
+                 "Piyush Goyal added me \n %s - %s %s \"%s %s HTTP/%d.%d\" %d " CUPS_LLFMT " %s %s\n",
         	 con->http->hostname,
 		 con->username[0] != '\0' ? con->username : "-",
 		 cupsdGetDateTime(&(con->start), LogTimeFormat),
